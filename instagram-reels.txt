@@ -9,7 +9,7 @@ instagram.com##main[role="main"]:has(> nav input) > div:has(a[href^="/p/"])
 ! Hide the "use the app" bar above the bottom navigation
 instagram.com##section:has(> main) > div > div[data-visualcompletion="ignore"]
 ! Hide suggested content in the home feed
-! Not keyed on the "caught up" marker: the feed unmounts it on scroll and the posts come back.
+instagram.com##main[role="main"] div:has(img[src*="illo-confirm-refresh"]) ~ article
 instagram.com##main[role="main"] article:has([data-interactable] > div:nth-child(2) [role="button"])
 ! Hide "Suggested Posts" heading in the home feed
 instagram.com##main[role="main"] div:has(> div > div > div > img[src*="illo-confirm-refresh"]) > div:nth-child(2)
