@@ -4,3 +4,9 @@
 youtube.com##ytm-pivot-bar-item-renderer:has(> .pivot-shorts)
 ! Hide suggested shorts on the home page
 youtube.com##ytm-rich-section-renderer:has(ytm-shorts-lockup-view-model)
+! Hide community posts on the home page
+youtube.com##ytm-rich-section-renderer:has(ytm-backstage-post-thread-renderer)
+! Hide YouTube Playables on the home page
+youtube.com##ytm-rich-section-renderer:has(mini-game-card-view-model)
+! Hide paid ads in the home feed
+youtube.com##ytm-rich-item-renderer:has(ad-slot-renderer)
