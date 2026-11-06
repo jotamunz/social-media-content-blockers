@@ -1,4 +1,6 @@
 ! Title: YouTube Shorts Blocker
-! Description: Hide YouTube Shorts on the mobile web
-! Hide the Shorts tab in the bottom navigation
+! Description: Hide shorts
+! Hide the shorts tab
 youtube.com##ytm-pivot-bar-item-renderer:has(> .pivot-shorts)
+! Hide suggested shorts on the home page
+youtube.com##ytm-rich-section-renderer:has(ytm-shorts-lockup-view-model)
