@@ -1,0 +1,4 @@
+! Title: Instagram Reels Blocker
+! Description: Hide reels and suggested content
+instagram.com##a[href^="/reels"]
+instagram.com##article:has(a[href*="/reel/"])
