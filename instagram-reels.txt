@@ -11,5 +11,8 @@ instagram.com##section:has(> main) > div > div[data-visualcompletion="ignore"]
 ! Hide suggested content in the home feed
 instagram.com##main[role="main"] div:has(img[src*="illo-confirm-refresh"]) ~ article
 instagram.com##main[role="main"] article:has([data-interactable] > div:nth-child(2) [role="button"])
+! Hide ads in the home feed
+instagram.com##article:has(a[href*="/ads/ig_redirect/"])
+instagram.com##article:has(a[href*="enable_persistent_cta"])
 ! Hide "Suggested Posts" heading in the home feed
 instagram.com##main[role="main"] div:has(> div > div > div > img[src*="illo-confirm-refresh"]) > div:nth-child(2)
